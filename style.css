@@ -1,3 +1,20 @@
 body {
 	background-color: beige;
 }
+input[type='text'] {
+	background-color: red;
+}
+input[type='number'] {
+	background-color: aqua;
+}
+
+.button:hover {
+	background-color: blue;
+}
+
+/* before */
+
+a::selection {
+	color: red;
+	background-color: blue;
+}
